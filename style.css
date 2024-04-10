@@ -1,0 +1,60 @@
+header{
+    background-color:  #fbf3db ;
+
+}
+.bg-dark{
+    background-color:  #fbf3db 
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(./images/fondo.png) ;
+}
+.imagen {
+    width: 100%;
+    height: auto;
+}
+.texto_header{
+    text-decoration: #154c4c;
+}
+.navbar-nav .nav-link {
+    color:#154c4c;
+}
+.carrusel_imagenes{
+    width: 920px;
+    height: 500px;
+}
+.nosotros{
+    line-height: 2em;
+    color:#fbf3db;
+}
+.fondo_crema{  
+    background-color: #fbf3db;
+    color: #154c4c;
+}
+.fondo_verde{
+    background-color: #154c4c;
+    color:#fbf3db ;
+}
+.trama{
+    line-height: 2em;
+}
+.clubes_trama{
+    line-height: 2em;
+}
+.lista {
+    list-style-type: disc;
+}
+.edicion_2023{
+    line-height: 2em;
+}
+
+.color_links_crema{
+
+    color: #fbf3db;
+}
+.color_links_verde{
+    color: #154c4c
+}
+.edicion_2024{
+    line-height: 2em;
+}
