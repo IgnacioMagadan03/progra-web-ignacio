@@ -1,6 +1,12 @@
 header{
     background-color:  #fbf3db ;
-
+    position: sticky;
+}
+.navbar-toggler-icon {
+    color: black;
+  }
+.hero{
+    margin:0%;
 }
 .bg-dark{
     background-color:  #fbf3db 
@@ -9,12 +15,15 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-image: url(./images/fondo.png) ;
 }
+#hamburgesa{
+    background-color:#154c4c!important;
+  }
 .imagen {
     width: 100%;
     height: auto;
 }
 .texto_header{
-    text-decoration: #154c4c;
+    text-decoration: ;
 }
 .navbar-nav .nav-link {
     color:#154c4c;
