@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="./images/Untitled image.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.1/confetti.min.js"></script>
+    <script src="https://github.com/tsparticles/confetti.git"></script>
 
 </head>
 
@@ -170,7 +172,7 @@ experiencias e ideas.
                     <h4 class="text-center my-2">Informacion importante</h4>
                    <p class="text-center">
                     <ul>
-                        <li>Sabado 4 de mayo.</li>
+                        <li>Sabado 10 de mayo.</li>
                         <li>Es gratuito.</li>
                         <li>Apertura 10:30.</li>
                         <li>Finalizacion 20:00.</li>
@@ -239,8 +241,8 @@ experiencias e ideas.
                     <p class="text-center"><a href="https://www.linkedin.com/in/maximo-joaquin-magadan-550947185/" class="color_links_crema">MAXIMO JOAQUIN MAGADAN</a></p>
                 </div>
                 <div class="col-4" >
-                    <img src="./images/foto santi.png" class="d-block w-100" img>
-                    <h6  class="text-center">Coordinador</h6>
+                    <img  src="./images/foto santi.png" class="d-block w-100" img>
+                    <h6 id="imageninteractiva" class="text-center">Coordinador</h6>
                     <p class="text-center"><a href="https://www.linkedin.com/in/santiago-garbarino/" class="color_links_crema"> SANTIAGO GARBARINO</a></p>
                 </div>
                 <div class="col-4" >
@@ -286,13 +288,22 @@ experiencias e ideas.
                   <a class="fa-brands fa-tiktok color_links_verde" href="https://www.tiktok.com/@trama.itba?_t=8lRNVfeuhd8&_r=1"> </a>
               </div>
           </div>
-      </div>
+        </div>
+      <div class="container mt-5">
+        <h5 class="text-center">Cuenta atrás para el evento</h5>
+        <div id="cuentaAtras" class="alert  text-center p-3">
+            <span id="dias">00</span> días <span id="horas">00</span> horas <span id="minutos">00</span> minutos <span id="segundos">00</span> segundos
+        </div>
+    </div>
+
   </footer>
-  
-   
     <script src="https://kit.fontawesome.com/2960a3682a.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
+      let imageninteractiva = document.getElementById('imageninteractiva')
+      imageninteractiva.addEventListener("click", function(){
+        alert("No me toques")
+      })
       document.addEventListener('DOMContentLoaded', function () {
           var myCarousel = document.getElementById('carouselExampleControlsNoTouching');
           var mycarousel = new bootstrap.Carousel(myCarousel, {
@@ -300,5 +311,7 @@ experiencias e ideas.
           });
       });
     </script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.1/confetti.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

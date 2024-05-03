@@ -22,6 +22,11 @@ body {
     width: 100%;
     height: auto;
 }
+.agregarCarrito{
+    background-color:#154c4c!important;
+    color: #fbf3db ;
+    border-color: #154c4c
+}
 .texto_header{
     text-decoration: ;
 }
